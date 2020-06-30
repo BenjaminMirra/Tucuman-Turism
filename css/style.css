@@ -352,3 +352,9 @@ margin: 0% 5%;
   line-height: 20px;
   width: 0px;
 }
+
+@media screen and (max-width: 767px) {
+  .alineamiento{
+    margin-top: -90px;
+  }
+}
