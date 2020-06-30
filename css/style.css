@@ -357,4 +357,7 @@ margin: 0% 5%;
   .alineamiento{
     margin-top: -90px;
   }
+  .fuera{
+    display: none;
+  }
 }
