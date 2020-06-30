@@ -1,6 +1,43 @@
-
 .columna-text {
     max-width: 70%;
+}
+
+.titulo-grande {
+    font-size: 5vw;
+}
+
+.modal1 {
+    display: flex !important;
+    justify-content: center !important;
+    background-color: white !important;
+    margin: 10% !important;
+    padding: 10px !important;
+}
+
+.modal1 img {
+    margin: 10px;
+    max-width: 800px;
+    max-height: 700px;
+    border: solid black 5px;
+}
+
+.modal1 p h1 h2 h3 h4 h5 {
+    margin: 5px;
+}
+
+.bs-modal-vino p h1 h2 h3 h4 h5 {
+    margin: 3px;
+}
+
+.bs-modal-vino img {
+    margin: 10px;
+    max-width: 800px;
+    max-height: 700px;
+    border: solid black 5px;
+}
+
+.bs-modal-vino p {
+    font-size: medium;
 }
 
 .btn-default {
@@ -14,9 +51,12 @@
     color: white;
 }
 
+#sec-principal {
+    margin: 50px;
+}
+
 #area1 {
     background-image: url(images/seccion1.jpg);
-    height: 60vw;
     border: black 1px solid;
     width: 100%;
     height: auto;
@@ -38,12 +78,6 @@
     border: black 1px solid;
     width: 100%;
     height: auto;
-}
-
-.items-seccion:hover {
-    filter: blur(100%);
-    border: black solid 4px;
-    text-shadow: 0 0 6px black;
 }
 
 @media (min-width: 576px) {
@@ -106,7 +140,6 @@
     transform: scale(1.3);
 }
 
-
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -137,10 +170,6 @@
 
 .boton_estilo {
     background-color: white;
-    /* border-width: 1px;
-                    border-style: solid;
-                    border-color: black !important;
-                    border-radius: 10%;*/
     color: black;
 }
 
