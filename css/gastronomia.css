@@ -57,14 +57,14 @@
 }
 
 #area1 {
-    background-image: url(images/seccion1.jpg);
+
     border: black 1px solid;
     width: 100%;
     height: auto;
 }
 
 #area2 {
-    background-image: url(images/seccion2.jpg);
+
     background-position: center;
     background-size: cover;
     border: black 1px solid;
@@ -73,7 +73,7 @@
 }
 
 #area3 {
-    background-image: url(images/seccion3.jpg);
+  
     background-position: center;
     background-size: cover;
     border: black 1px solid;
