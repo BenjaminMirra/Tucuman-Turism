@@ -322,14 +322,12 @@ margin: 0% 5%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
   height: 40px;
   border-radius: 40px;
   padding: 10px;
 }
 .search-box:hover > .search-txt{
   width:240px;
-  padding:0 6px;
 }
 .search-btn{
   color: black;
@@ -346,7 +344,7 @@ margin: 0% 5%;
   border: none;
   outline: none;
   float: left;
-  padding: 0;
+  padding: 0px; /*ESTE ES EL PROBLEMA*/
   font-size:16px;
   transition: 0.4s;
   line-height: 20px;
@@ -361,3 +359,8 @@ margin: 0% 5%;
     display: none;
   }
 }
+
+.busqueda{
+  transform: translate(0, -25%);
+  /* padding: 6px; */
+} 
