@@ -2,26 +2,30 @@
 <html lang="es">
 
 <head>
-
+    <title>Alojamientos - Tucumán Turismo</title>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/alojamiento.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
         type="text/css" />
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
-
-    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;515;600;700&display=swap"
         rel="stylesheet">
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
         type="text/css">
-
-    <title>Datos útiles - Tucumán Turismo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -249,7 +253,555 @@
             </a>
         </div>
     </nav>
+
+    <!--Carousel-->
+    <div">
+        <div id="carouselAlojamiento" class="carousel slide" data-ride="carouselAlojamiento">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselAlojamiento" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselAlojamiento" data-slide-to="1"></li>
+                <li data-target="#carouselAlojamiento" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="imagen_ca" class=" d-block w-100" src="img/aloj/1slide.jpg" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="col-md">Busca tu alojamiento en Tucuman</h3>
+                        <p>Conocé las diferentes alternativas para disfrutar a pleno la provincia. Tucumán te invita a
+                            conocer una variada oferta de actividades.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="imagen_ca" class=" d-block w-100" src="img/aloj/2slide.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="col-md">¿Dónde dormir?</h3>
+                        <p>Elegí cuál es tu lugar ideal de descanso. En Tucumán encontrás variadas opciones para que
+                            vivas una estadía inolvidable.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="imagen_ca" class=" d-block w-100" src="img/aloj/3slide.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+
+                        <h3 class="col-md">Circuitos Turísticos
+                        </h3>
+                        <p>La Ciudad de San Miguel de Tucumán es la capital de la Provincia de Tucumán, considerada
+                            la metrópoli del Noroeste Argentino..</p>
+
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselAlojamiento" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselAlojamiento" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    
     <hr>
+
+    <!--Título-->
+    <div class="container">
+        <h1 class="text-center">Alojamientos</h1>   
+    </div>
+    <hr>
+
+    <!--Cards-->
+    <div>
+        <!--Primera Fila-->
+        <div class="card-deck m-2 ">
+            <!-- tarjeta1 -->
+            <div class="card m-2 rounded-0">
+                <!--Card image-->
+                <div class="view overlay">
+                    <img class="logo1" src="img/aloj/24.jpg" alt="">
+                </div>
+                <!--Card content-->
+                <div class="card-body p-3">
+                    <!--Title-->
+                    <h4 class="card-title m-1">CATALINAS PARK</h4>
+                    <!-- tarjeta de datos -->
+                    <div class=" d-inline ">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <p class="card-text d-inline "><small class="text-muted ">
+                                Av. Soldatti Nº 380
+                                .</small></p>
+                    </div>
+                    <br>
+                    <div class=" d-inline ">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <p class="card-text d-inline "><small class="text-muted "> reservas@catalinaspark.com
+                            </small></p>
+                    </div>
+                    <br>
+                    <div class=" d-inline ">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <p class="card-text d-inline"><small class="text-muted " style="text-decoration: underline; ">
+                                (54 381) 4502250 - 4502222
+                            </small></p>
+                    </div>
+                    <div class="d-flex justify-content-center m-3 ">
+                        <button type="button "
+                            class="btn btn-outline-warning text-dark btn-sm m-1 boton_estilo rounded-0">reservas!
+                            <i class="fa fa-bed fa-lg" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- tarjeta2 -->
+            <div class="card m-2 rounded-0">
+                <!--Card image-->
+                <div class="view overlay">
+                    <img class="logo1" src="img/aloj/27.jpg" alt="">
+                </div>
+                <!--Card content-->
+                <div class="card-body p-3">
+                    <!--Title-->
+                    <h4 class="card-title m-1">ATAHUALPA YUPANQUI
+                    </h4>
+                    <!-- tarjeta de datos -->
+                    <div class=" d-inline ">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <p class="card-text d-inline "><small class="text-muted ">
+                                Calle Paisandú Nº 2400
+                                .</small></p>
+                    </div>
+                    <br>
+                    <div class=" d-inline ">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <p class="card-text d-inline "><small class="text-muted "> reservashosteriatafiviejo@gmail.com
+                            </small></p>
+                    </div>
+                    <br>
+                    <div class=" d-inline ">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <p class="card-text d-inline"><small class="text-muted " style="text-decoration: underline; ">
+                                (381) 4614120
+
+                            </small></p>
+                    </div>
+                    <div class="d-flex justify-content-center m-3 ">
+                        <button type="button "
+                            class="btn btn-outline-warning text-dark btn-sm m-1 boton_estilo rounded-0">reservas!
+                            <i class="fa fa-bed fa-lg" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- tarjeta3 -->
+            <div class="card m-2 rounded-0">
+                <!--Card image-->
+                <div class="view overlay">
+                    <img class="logo1" src="img/aloj/11.jpg" alt="">
+                </div>
+                <!--Card content-->
+                <div class="card-body p-3">
+                    <!--Title-->
+                    <h4 class="card-title m-1">BICENTENARIO SUITES
+                    </h4>
+                    <!-- tarjeta de datos -->
+                    <div class=" d-inline ">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <p class="card-text d-inline "><small class="text-muted ">
+                                Las Heras 21.</small></p>
+                    </div>
+                    <br>
+                    <div class=" d-inline ">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <p class="card-text d-inline "><small class="text-muted "> reservas@hotelbicentenario.com.ar
+                            </small></p>
+                    </div>
+                    <br>
+                    <div class=" d-inline ">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <p class="card-text d-inline"><small class="text-muted " style="text-decoration: underline; ">
+                                (0381) 4319119
+                            </small></p>
+                    </div>
+                    <div class="d-flex justify-content-center m-3 ">
+                        <button type="button "
+                            class="btn btn-outline-warning text-dark btn-sm m-1 boton_estilo rounded-0">reservas
+                            <i class="fa fa-bed fa-lg" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- tarjeta4 -->
+            <div class="card m-2 rounded-0">
+                <!--Card image-->
+                <div class="view overlay">
+                    <img class="logo1" src="img/aloj/16.jpg" alt="">
+                </div>
+                <!--Card content-->
+                <div class="card-body p-3">
+                    <!--Title-->
+                    <h4 class="card-title m-1">SOL SAN JAVIER SPA ECO
+                    </h4>
+                    <!-- tarjeta de datos -->
+                    <div class=" d-inline ">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <p class="card-text d-inline "><small class="text-muted ">
+                                Ruta Provincial Nº 340 Km.23.</small></p>
+                    </div>
+                    <br>
+                    <div class=" d-inline ">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <p class="card-text d-inline "><small class="text-muted "> reservas@hotelsolsanjavier.com.ar
+                            </small></p>
+                    </div>
+                    <br>
+                    <div class=" d-inline ">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <p class="card-text d-inline"><small class="text-muted " style="text-decoration: underline; ">
+                                (0381) 4929004 / 4929200
+                            </small></p>
+                    </div>
+                    <div class="d-flex justify-content-center m-3 ">
+                        <button type="button "
+                            class="btn btn-outline-warning text-dark btn-sm m-1 boton_estilo rounded-0">reservas
+                            <i class="fa fa-bed fa-lg" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Segunda Fila-->
+        <div class="card-deck m-2 ">
+
+            <!-- tarjeta5 -->
+            <div class="card m-2 rounded-0">
+                <!--Card image-->
+                <div class="view overlay">
+                    <img class="logo1" src="img/aloj/3.jpg" alt="">
+                </div>
+                <!--Card content-->
+                <div class="card-body p-3">
+                    <!--Title-->
+                    <h4 class="card-title m-1">TUCUMÁN CENTER SUITES
+                    </h4>
+                    <!-- tarjeta de datos -->
+                    <div class=" d-inline ">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <p class="card-text d-inline "><small class="text-muted ">
+                                25 de mayo 230.</small></p>
+                    </div>
+                    <br>
+                    <div class=" d-inline ">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <p class="card-text d-inline "><small class="text-muted "> info@tucumancenterhotel.com.ar
+                            </small></p>
+                    </div>
+                    <br>
+                    <div class=" d-inline ">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <p class="card-text d-inline"><small class="text-muted " style="text-decoration: underline; ">
+                                (0381) 4525555
+                            </small></p>
+                    </div>
+                    <div class="d-flex justify-content-center m-3 ">
+                        <button type="button "
+                            class="btn btn-outline-warning text-dark btn-sm m-1 boton_estilo rounded-0">reservas!
+                            <i class="fa fa-bed fa-lg" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- tarjeta2 -->
+            <div class="card m-2 rounded-0">
+                <!--Card image-->
+                <div class="view overlay">
+                    <img class="logo1" src="img/aloj/23.jpg" alt="">
+                </div>
+                <!--Card content-->
+                <div class="card-body p-3">
+                    <!--Title-->
+                    <h4 class="card-title m-1">AMERIAN TUCUMAN APART
+                    </h4>
+                    <!-- tarjeta de datos -->
+                    <div class=" d-inline ">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <p class="card-text d-inline "><small class="text-muted ">
+                                Calle Santiago del Estero Nº 425
+                                .</small></p>
+                    </div>
+                    <br>
+                    <div class=" d-inline ">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <p class="card-text d-inline "><small class="text-muted ">infotuc@amerian.com
+                            </small></p>
+                    </div>
+                    <br>
+                    <div class=" d-inline ">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <p class="card-text d-inline"><small class="text-muted " style="text-decoration: underline; ">
+                                (0381) 4300100
+                            </small></p>
+                    </div>
+                    <div class="d-flex justify-content-center m-3 ">
+                        <button type="button "
+                            class="btn btn-outline-warning text-dark btn-sm m-1 boton_estilo rounded-0">reservas!
+                            <i class="fa fa-bed fa-lg" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- tarjeta3 -->
+            <div class="card m-2 rounded-0">
+                <!--Card image-->
+                <div class="view overlay">
+                    <img class="logo1" src="img/aloj/10.jpg" alt="">
+                </div>
+                <!--Card content-->
+                <div class="card-body p-3">
+                    <!--Title-->
+                    <h4 class="card-title m-1">CARLOS V
+                    </h4>
+                    <!-- tarjeta de datos -->
+                    <div class=" d-inline ">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <p class="card-text d-inline "><small class="text-muted ">
+                                Las Heras 21.</small></p>
+                    </div>
+                    <br>
+                    <div class=" d-inline ">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <p class="card-text d-inline "><small class="text-muted ">reservas@redcarlosV.com.ar
+                            </small></p>
+                    </div>
+                    <br>
+                    <div class=" d-inline ">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <p class="card-text d-inline"><small class="text-muted " style="text-decoration: underline; ">
+                                (381) 4311666
+                            </small></p>
+                    </div>
+                    <div class="d-flex justify-content-center m-3 ">
+                        <button type="button "
+                            class="btn btn-outline-warning text-dark btn-sm m-1 boton_estilo rounded-0">reservas
+                            <i class="fa fa-bed fa-lg" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- tarjeta8 -->
+            <div class="card m-2 rounded-0">
+                <!--Card image-->
+                <div class="view overlay">
+                    <img class="logo1" src="img/aloj/15.jpg" alt="">
+                </div>
+                <!--Card content-->
+                <div class="card-body p-3">
+                    <!--Title-->
+                    <h4 class="card-title m-1">HILTON GARDEN INN
+                    </h4>
+                    <!-- tarjeta de datos -->
+                    <div class=" d-inline ">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <p class="card-text d-inline "><small class="text-muted ">Calle Miguel Lillo Nº 365
+                            </small></p>
+                    </div>
+                    <br>
+                    <div class=" d-inline ">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <p class="card-text d-inline "><small class="text-muted ">hgitucuman.reservas@hilton.com
+                            </small></p>
+                    </div>
+                    <br>
+                    <div class=" d-inline ">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <p class="card-text d-inline"><small class="text-muted "
+                                style="text-decoration: underline; ">(0381)
+                                4532000 / 2023
+                            </small></p>
+                    </div>
+                    <div class="d-flex justify-content-center m-3 ">
+                        <button type="button "
+                            class="btn btn-outline-warning text-dark btn-sm m-1 boton_estilo rounded-0">reservas
+                            <i class="fa fa-bed fa-lg" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Tercera Fila -->
+        <div class="card-deck m-2 ">
+
+            <!-- tarjeta5 -->
+            <div class="card m-2 rounded-0">
+                <!--Card image-->
+                <div class="view overlay">
+                    <img class="logo1" src="img/aloj/4.jpg" alt="">
+                </div>
+                <!--Card content-->
+                <div class="card-body p-3">
+                    <!--Title-->
+                    <h4 class="card-title m-1">FRANCIA
+                    </h4>
+                    <!-- tarjeta de datos -->
+                    <div class=" d-inline ">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <p class="card-text d-inline "><small class="text-muted ">
+                                Crisóstomo Álvarez 467
+                            </small></p>
+                    </div>
+                    <br>
+                    <div class=" d-inline ">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <p class="card-text d-inline "><small class="text-muted "> reservas@hotelfrancia.com.ar
+                            </small></p>
+                    </div>
+                    <br>
+                    <div class=" d-inline ">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <p class="card-text d-inline"><small class="text-muted " style="text-decoration: underline; ">
+                                (0381) 4310781
+                            </small></p>
+                    </div>
+                    <div class="d-flex justify-content-center m-3 ">
+                        <button type="button "
+                            class="btn btn-outline-warning text-dark btn-sm m-1 boton_estilo rounded-0">reservas!
+                            <i class="fa fa-bed fa-lg" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- tarjeta2 -->
+            <div class="card m-2 rounded-0">
+                <!--Card image-->
+                <div class="view overlay">
+                    <img class="logo1" src="img/aloj/1.jpg" alt="">
+                </div>
+                <!--Card content-->
+                <div class="card-body p-3">
+                    <!--Title-->
+                    <h4 class="card-title m-1">MEDITERRANEO
+                    </h4>
+                    <!-- tarjeta de datos -->
+                    <div class=" d-inline ">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <p class="card-text d-inline "><small class="text-muted ">Av. 24 de Septiembre Nº 364
+                                .</small></p>
+                    </div>
+                    <br>
+                    <div class=" d-inline ">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <p class="card-text d-inline "><small class="text-muted ">informeshotelmediterraneo@gmail.com
+                            </small></p>
+                    </div>
+                    <br>
+                    <div class=" d-inline ">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <p class="card-text d-inline"><small class="text-muted " style="text-decoration: underline; ">
+                                (381) 4310025
+                            </small></p>
+                    </div>
+                    <div class="d-flex justify-content-center m-3 ">
+                        <button type="button "
+                            class="btn btn-outline-warning text-dark btn-sm m-1 boton_estilo rounded-0">reservas!
+                            <i class="fa fa-bed fa-lg" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- tarjeta3 -->
+            <div class="card m-2 rounded-0">
+                <!--Card image-->
+                <div class="view overlay">
+                    <img class="logo1" src="img/aloj/2.jpg" alt="">
+                </div>
+                <!--Card content-->
+                <div class="card-body p-3">
+                    <!--Title-->
+                    <h4 class="card-title m-1">PORTAL DEL NORTE
+                    </h4>
+                    <!-- tarjeta de datos -->
+                    <div class=" d-inline ">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <p class="card-text d-inline "><small class="text-muted ">
+                                México n° 879 y Av. Siria
+                                .</small></p>
+                    </div>
+                    <br>
+                    <div class=" d-inline ">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <p class="card-text d-inline "><small class="text-muted ">info@hotelportaldelnorte.com
+
+                            </small></p>
+                    </div>
+                    <br>
+                    <div class=" d-inline ">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <p class="card-text d-inline"><small class="text-muted " style="text-decoration: underline; ">
+                                (0381) 4272722 / 4279270
+                            </small></p>
+                    </div>
+                    <div class="d-flex justify-content-center m-3 ">
+                        <button type="button "
+                            class="btn btn-outline-warning text-dark btn-sm m-1 boton_estilo rounded-0">reservas
+                            <i class="fa fa-bed fa-lg" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- tarjeta8 -->
+            <div class="card m-2 rounded-0">
+                <!--Card image-->
+                <div class="view overlay">
+                    <img class="logo1" src="img/aloj/9.jpg" alt="">
+                </div>
+                <!--Card content-->
+                <div class="card-body p-3">
+                    <!--Title-->
+                    <h4 class="card-title m-1">ACONQUIJA
+                    </h4>
+                    <!-- tarjeta de datos -->
+                    <div class=" d-inline ">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <p class="card-text d-inline "><small class="text-muted ">Av. Aconquija 2530
+                            </small></p>
+                    </div>
+                    <br>
+                    <div class=" d-inline ">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <p class="card-text d-inline "><small class="text-muted ">info@aconquijahosteria.com.ar
+                            </small></p>
+                    </div>
+                    <br>
+                    <div class=" d-inline ">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <p class="card-text d-inline"><small class="text-muted "
+                                style="text-decoration: underline; ">(0381)
+                                4532000 / 2023
+                            </small></p>
+                    </div>
+                    <div class="d-flex justify-content-center m-3 ">
+                        <button type="button "
+                            class="btn btn-outline-warning text-dark btn-sm m-1 boton_estilo rounded-0">reservas
+                            <i class="fa fa-motorcycle fa-lg" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
     <!-- Footer -->
     <div class="container">
         <footer class="pt-4 my-md-5 pt-md-5 margin-top-5px border-top border-bottom bg-white">
@@ -342,6 +894,7 @@
             </div>
         </footer>
     </div>
+
     <!-- Barra Sticky -->
     <barra>
         <div class="social-icon container">

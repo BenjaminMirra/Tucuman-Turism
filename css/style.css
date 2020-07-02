@@ -344,7 +344,7 @@ margin: 0% 5%;
   border: none;
   outline: none;
   float: left;
-  padding: 0px; /*ESTE ES EL PROBLEMA*/
+   /*ESTE ES EL PROBLEMA*/
   font-size:16px;
   transition: 0.4s;
   line-height: 20px;
@@ -362,5 +362,5 @@ margin: 0% 5%;
 
 .busqueda{
   transform: translate(0, -25%);
-  /* padding: 6px; */
+  padding: 6px;
 } 
